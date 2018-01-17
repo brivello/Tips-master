@@ -1,0 +1,44 @@
+
+button#bmain {
+	width: 256px;
+	height: 35px;
+	background-color: #FF8422;
+	color: white;
+	margin-left: 16px;
+	border-radius: 4px; /*rounded corners*/
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
+}
+button#add {
+	margin-top: 6%; 
+	background-color: #FF8422; 
+	color: white;
+	margin-bottom: 10px;
+	
+	
+	
+}
+button#p5, button#p10, button#p15, button#p20 {
+	background-color: #FF8422;
+	color: white;
+	width: 30 px;
+	height: 30 px; 
+	float: left;
+	border-radius: 4px;
+}
+button#p5 {
+}
+#tipspic {
+	width: 55px;
+	height: 20px;
+	margin-top: 12px;
+	margin-left: 19px;
+}
+#dropdown {
+	float: left;
+	margin-top: 10px;
+	height: 150px;
+	width: 90px;
+}
+/*button#p5{
+margin-left:4px	
+}*/

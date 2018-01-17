@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tips",
+  "description": "",
+  "version": "1.0.0",
+  "options_page": "options.html",  
+  "background":{
+	  "scripts": ["tips.js"]
+  },
+  "icons": {"128": "icon128.png" },
+  "content_scripts":[
+  {
+	  "js":["tips.js"],
+	  "popup": ["popup.html"],
+	  "css":["tips.css"],
+	  "matches":["http://www.amazon.com/*", "https://*/*"]
+	  
+  }
+  ],
+  "permissions": [
+    "tabs",
+	"activeTab"
+  ],
+  "web_accessible_resources":[
+  "button.png",
+  "dropdownright.png"]
+}
